@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>furre :(</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	
+	
+
+	<body style="overflow-y: hidden; overflow-x: hidden;">
+
+
+<div class="parent">	
+	<div style="margin-top: 30px; position: relative; top: 470px;left: 47.4%;">
+<button class="btn1" onclick="unmuteVideo()">
+			unmute
+</button>
+
+
+</div>
+
+
+		<a href="https://steamcommunity.com/profiles/76561198397137422/" target="_blank">
+		<img src="img.png" class="img">
+	</a>
+
+
+
+			<video id="vid" autoplay loop="true" muted>
+			<source src="video.mp4" type="video/mp4">
+		</video>
+		
+		
+
+	
+<div style="position: absolute; top: 530px; left: 46.5%">
+		
+<a class="social" href="https://www.instagram.com/furreabay" target="_blank">
+			Instagram
+		</a>
+
+</div>
+<div style="position: absolute; top: 560px; left: 47.28%">
+
+	<a class="social" href="https://twitter.com/Furreabay07" target="_blank">
+			Twitter
+		</a>
+	
+
+</div>
+
+</div>
+	
+
+	<script type="text/javascript">
+		
+		var vid = document.getElementById("vid");
+
+		var btn1 = document.getElementById("btn1");
+
+		function unmuteVideo() {
+
+				vid.muted = false;
+
+				if (vid.muted = false) {
+
+					btn1.style.display = "none";
+				}
+			}
+
+		
+
+		
+
+		if (vid.muted = true) {
+
+			vid.volume = 0.5;
+		}
+
+	</script>
+	</body>
+
+</html>
